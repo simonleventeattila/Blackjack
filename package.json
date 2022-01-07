@@ -1,0 +1,22 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Take home problem for 888 interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonleventeattila/Blackjack.git"
+  },
+  "author": "SLA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonleventeattila/Blackjack/issues"
+  },
+  "homepage": "https://github.com/simonleventeattila/Blackjack#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
