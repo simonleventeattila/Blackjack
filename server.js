@@ -1,15 +1,10 @@
-//import fetch from 'node-fetch';
-//import express from 'express'
+
 const express = require('express')
 const app = express()
 const portExpress = 80
-//import path from 'path'
-//const path = require('path')
 
 app.use(express.static('public'))
-// app.get('/', (req, res) => {
-// res.sendFile(path.join(__dirname, '/public/index.html'));
-// })
+
 
 app.listen(portExpress, () => {
   console.log(`Example app listening at http://localhost:${portExpress}`)
