@@ -6,11 +6,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
-   <button type="button" id="sit">Sit</button> 
   <script type="module" src="app.js"></script>
 </head>
 
 <body>
   <h1>Blackjack</h1>
+  
+  <label for="balance">Please enter starting balance (10$-1000$):</label>
+  <input type="number" id="balance" name="balance"  min="10" max="1000" value="10">
+  <button type="button" id="sit">Sit</button> 
+
 </body>
 </html>
